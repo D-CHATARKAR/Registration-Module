@@ -1,0 +1,96 @@
+body {
+  background-size: cover;
+  padding: 70px;
+  background-attachment: fixed;
+}
+.logo img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.logo span{
+  font-size: 30px;
+  font-weight: 800;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.div-center {
+  width: 350px;
+  margin: auto;
+  
+}
+label {
+  margin-right: 10px;
+  text-align: left;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+
+input {
+  border: 2px solid gray;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  margin-bottom: 20px;
+  height: 15px;
+  width: 80%;
+}
+
+.required {
+  color: red;
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+}
+
+
+.box {
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+input[type=text],input[type=password],input[type=email],input[type=date],input[type=tel]{
+  width: 100%;
+  padding: 12px 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+
+.sbtn{
+       margin-top: 10px;
+       background-color: floralwhite;
+       border-radius: 4px;
+       
+}
+
+
+.userName input{
+  padding : 4px 0px;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  margin: 2px;
+}
+
+.rbtn{
+  padding: 0 20px 0 20px;
+}
+
+
